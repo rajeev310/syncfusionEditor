@@ -1,6 +1,9 @@
 <div style="width:100%;">
-    <ejs-documenteditorcontainer 
+    <input id="open_sfdt" #open_sfdt style="position:fixed; left:-100em" type="file" (change)="onFileChange($event)" accept=".sfdt"/>
+    <button ejs-button (click)="onFileOpenClick()" >Import</button>
+    <ejs-documenteditorcontainer
+    serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/" 
     #document_editor 
     [enableToolbar]=true
-    style="min-height: 800px;"> </ejs-documenteditorcontainer>
+    [height]="height"> </ejs-documenteditorcontainer>
 </div>
