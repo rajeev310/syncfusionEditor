@@ -44,6 +44,12 @@ SEE LICENSE IN license
 @syncfusion/ej2-angular-documenteditor
 SEE LICENSE IN license
 
+@syncfusion/ej2-angular-navigations
+SEE LICENSE IN license
+
+@syncfusion/ej2-angular-splitbuttons
+SEE LICENSE IN license
+
 @syncfusion/ej2-base
 SEE LICENSE IN license
 
@@ -97,6 +103,9 @@ https://www.syncfusion.com/content/downloads/syncfusion_license.pdf
 SEE LICENSE IN license
 
 @syncfusion/ej2-lists
+SEE LICENSE IN license
+
+@syncfusion/ej2-material-theme
 SEE LICENSE IN license
 
 @syncfusion/ej2-navigations
