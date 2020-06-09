@@ -6,6 +6,8 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 
 import { AppComponent } from './app.component';
 import { SyncfusionEditorComponent } from './syncfusion-editor/syncfusion-editor.component';
+import { AccordionModule, ToolbarModule, ContextMenuModule, TabModule, TreeViewModule, SidebarModule, MenuModule } from '@syncfusion/ej2-angular-navigations';
+import { DropDownButtonModule, SplitButtonModule, ProgressButtonModule } from '@syncfusion/ej2-angular-splitbuttons';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { SyncfusionEditorComponent } from './syncfusion-editor/syncfusion-editor
   imports: [
     BrowserModule,
     DocumentEditorContainerModule,
-    ButtonModule
+    ButtonModule,
+    AccordionModule, ToolbarModule, ContextMenuModule, TabModule, TreeViewModule, SidebarModule, MenuModule, DropDownButtonModule, SplitButtonModule, ProgressButtonModule
   ],
   providers: [ToolbarService],
   bootstrap: [AppComponent]

@@ -1,9 +1,9 @@
-<div style="width:100%;">
-    <input id="open_sfdt" #open_sfdt style="position:fixed; left:-100em" type="file" (change)="onFileChange($event)" accept=".sfdt"/>
-    <button ejs-button (click)="onFileOpenClick()" >Import</button>
-    <ejs-documenteditorcontainer
-    serviceUrl="https://ej2services.syncfusion.com/production/web-services/api/documenteditor/" 
-    #document_editor 
-    [enableToolbar]=true
-    [height]="height"> </ejs-documenteditorcontainer>
+<div class="control-section">
+    <div>
+        <div id="default_title_bar" class="e-de-ctn-title"></div>
+        <div>
+            <ejs-documenteditorcontainer #documenteditor_default [enableToolbar]=true [locale]="culture" (created)="onCreate()" (documentChange)="onDocumentChange()" height="600px" style="display:block;"></ejs-documenteditorcontainer>
+        </div>
+    </div>
 </div>
+
